@@ -1,0 +1,26 @@
+[
+  {
+    "id": "oz-scarecrow-14-freeze",
+    "source_url": "https://en.wikisource.org/wiki/The_Scarecrow_of_Oz/Chapter_14",
+    "license_note": "L. Frank Baum의 1915년 작품. 공개도메인 여부는 배포 국가별로 확인한다.",
+    "source_text": "Love no more! Magic art / Now will freeze your mortal heart!",
+    "korean_test_input": "사랑을 멈춰라 마법의 힘아 인간의 심장을 얼려라",
+    "expected_intent": "CONTROL"
+  },
+  {
+    "id": "oz-magic-oz-01-transform",
+    "source_url": "https://en.wikisource.org/wiki/The_Magic_of_Oz/Chapter_1",
+    "license_note": "L. Frank Baum의 1919년 작품. 공개도메인 여부는 배포 국가별로 확인한다.",
+    "source_text": "Pyrzqxgl",
+    "korean_test_input": "나는 소가 된다 피르즈크스글",
+    "expected_intent": "TRANSFORM"
+  },
+  {
+    "id": "oz-glinda-20-move",
+    "source_url": "https://en.wikisource.org/wiki/Glinda_of_Oz/Chapter_20",
+    "license_note": "L. Frank Baum의 1920년 작품. 공개도메인 여부는 배포 국가별로 확인한다.",
+    "source_text": "Carry us across the lake, to the farther shore.",
+    "korean_test_input": "우리를 호수 건너 먼 물가로 데려가라",
+    "expected_intent": "MOVE"
+  }
+]
