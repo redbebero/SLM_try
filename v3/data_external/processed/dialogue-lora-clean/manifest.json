@@ -1,0 +1,9 @@
+{
+  "unique": 8000,
+  "train": 7231,
+  "valid": 769,
+  "sources": [
+    "data_external/raw/Empathetic_data.jsonl",
+    "data_external/raw/ChatbotData.csv"
+  ]
+}

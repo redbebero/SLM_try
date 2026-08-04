@@ -1,0 +1,382 @@
+[
+  {
+    "checkpoint": "checkpoints/hrm_context_copy_pure_dialogue_v2_12ep_best.pth",
+    "cases": 20,
+    "keyword_hit_rate": 0.05,
+    "repetition_3gram_ratio": 0.0,
+    "full_hangul_ratio": 0.8393040804225015,
+    "avg_new_tokens": 2.45,
+    "rows": [
+      {
+        "id": "greeting_01",
+        "prompt": "안녕하세요",
+        "output": "저도 안녕하세요! 무엇을 도와드릴까요?",
+        "keyword_hit_rate": 1.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8888888888888888,
+        "new_tokens": 4
+      },
+      {
+        "id": "greeting_02",
+        "prompt": "반갑습니다",
+        "output": "저도 잔다 세요! 저도 다간 다신아.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8666666666666667,
+        "new_tokens": 6
+      },
+      {
+        "id": "greeting_03",
+        "prompt": "오늘 기분이 어때요?",
+        "output": "오기오요! 저오 온 올프오르개도 전 부이요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8947368421052632,
+        "new_tokens": 6
+      },
+      {
+        "id": "greeting_04",
+        "prompt": "도와줄 수 있나요?",
+        "output": "저노 순웅입니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.875,
+        "new_tokens": 2
+      },
+      {
+        "id": "common_01",
+        "prompt": "대한민국의 수도는",
+        "output": "에저도 읜읍니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.875,
+        "new_tokens": 2
+      },
+      {
+        "id": "common_02",
+        "prompt": "물의 화학식은",
+        "output": "작에요. 막요른 우것 어도 닥인 삭표.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.875,
+        "new_tokens": 6
+      },
+      {
+        "id": "common_03",
+        "prompt": "지구가 태양을 한 바퀴 도는 데 걸리는 시간은",
+        "output": "태가입니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8333333333333334,
+        "new_tokens": 1
+      },
+      {
+        "id": "common_04",
+        "prompt": "한글을 만든 왕은",
+        "output": "만설옹잉욥닙닙납닙납닙닙닙납닙닙납닙납닙납닙닙납납닙납닙답닙답닙납닙납납닙납닙납닙닙닙납닙닙납납납답",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 1.0,
+        "new_tokens": 1
+      },
+      {
+        "id": "math_01",
+        "prompt": "1 더하기 1은",
+        "output": "기더이.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.75,
+        "new_tokens": 1
+      },
+      {
+        "id": "math_02",
+        "prompt": "3 곱하기 4는",
+        "output": "기기하. 지다. 선울입니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.7692307692307693,
+        "new_tokens": 3
+      },
+      {
+        "id": "math_03",
+        "prompt": "10에서 3을 빼면",
+        "output": "저오 서에요!",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8333333333333334,
+        "new_tokens": 2
+      },
+      {
+        "id": "math_04",
+        "prompt": "20을 4로 나누면",
+        "output": "4나노 난하 선울입니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8181818181818182,
+        "new_tokens": 3
+      },
+      {
+        "id": "explain_01",
+        "prompt": "파이썬은 무엇인가요?",
+        "output": "세오르대이!",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8333333333333334,
+        "new_tokens": 1
+      },
+      {
+        "id": "explain_02",
+        "prompt": "인공지능이란 무엇인가요?",
+        "output": "저도 안습히다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8571428571428571,
+        "new_tokens": 2
+      },
+      {
+        "id": "explain_03",
+        "prompt": "양자역학은",
+        "output": "푹온 윽프흐 섹요믑니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9090909090909091,
+        "new_tokens": 3
+      },
+      {
+        "id": "explain_04",
+        "prompt": "고양이는 어떤 동물인가요?",
+        "output": "포오그!",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.75,
+        "new_tokens": 1
+      },
+      {
+        "id": "context_01",
+        "prompt": "나는 부산에 살고 있어. 내가 사는 도시는",
+        "output": "산에입니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8333333333333334,
+        "new_tokens": 1
+      },
+      {
+        "id": "context_02",
+        "prompt": "민수는 빨간 사과를 샀다. 민수가 산 과일은",
+        "output": "빨입니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8,
+        "new_tokens": 1
+      },
+      {
+        "id": "context_03",
+        "prompt": "책상 위에 연필이 있다. 책상 위에 있는 것은",
+        "output": "댁요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.6666666666666666,
+        "new_tokens": 1
+      },
+      {
+        "id": "context_04",
+        "prompt": "나는 매일 아침 커피를 마신다. 내가 마시는 것은",
+        "output": "시자민 입니다.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8571428571428571,
+        "new_tokens": 2
+      }
+    ]
+  },
+  {
+    "checkpoint": "checkpoints/hrm_external_dialogue_1ep_best.pth",
+    "cases": 20,
+    "keyword_hit_rate": 0.0,
+    "repetition_3gram_ratio": 0.0,
+    "full_hangul_ratio": 0.9160707673563507,
+    "avg_new_tokens": 8.0,
+    "rows": [
+      {
+        "id": "greeting_01",
+        "prompt": "안녕하세요",
+        "output": "자아아아아아 아아아요. 아아아아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8823529411764706,
+        "new_tokens": 3
+      },
+      {
+        "id": "greeting_02",
+        "prompt": "반갑습니다",
+        "output": "자사아아. 가아아아요. 바바아요. 가라으 바바아 바아아아아 바아아으 바아아아요. 가아아아 ",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9024390243902439,
+        "new_tokens": 9
+      },
+      {
+        "id": "greeting_03",
+        "prompt": "오늘 기분이 어때요?",
+        "output": "이으 아니아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8571428571428571,
+        "new_tokens": 2
+      },
+      {
+        "id": "greeting_04",
+        "prompt": "도와줄 수 있나요?",
+        "output": "저은 어으이아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.875,
+        "new_tokens": 2
+      },
+      {
+        "id": "common_01",
+        "prompt": "대한민국의 수도는",
+        "output": "기으 가아아요. 거으. 가이으 가으. 가으 가아으 가으으 가으스아으 아으 가으리으 그가으 ",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9210526315789473,
+        "new_tokens": 12
+      },
+      {
+        "id": "common_02",
+        "prompt": "물의 화학식은",
+        "output": "하으시아요. 자으이아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8333333333333334,
+        "new_tokens": 2
+      },
+      {
+        "id": "common_03",
+        "prompt": "지구가 태양을 한 바퀴 도는 데 걸리는 시간은",
+        "output": "가으 가으리이아요. 가그르 가으이으 가으 가으이으 가으그아으 가으으 가아으으으 가아으 아으 아아아으 아아으 ",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9787234042553191,
+        "new_tokens": 13
+      },
+      {
+        "id": "common_04",
+        "prompt": "한글을 만든 왕은",
+        "output": "하으 아으으 가으이으. 아으르 가으르 아스르 아으스 아으라스아으 아으으으 아으리으 아아으 ",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9743589743589743,
+        "new_tokens": 11
+      },
+      {
+        "id": "math_01",
+        "prompt": "1 더하기 1은",
+        "output": "저다아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8,
+        "new_tokens": 1
+      },
+      {
+        "id": "math_02",
+        "prompt": "3 곱하기 4는",
+        "output": "저다이 아이아요. 가으. 아니아으. 아아으 아으르 가으 아아으이 아아으 ",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9032258064516129,
+        "new_tokens": 9
+      },
+      {
+        "id": "math_03",
+        "prompt": "10에서 3을 빼면",
+        "output": "저으으 자으으.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8571428571428571,
+        "new_tokens": 2
+      },
+      {
+        "id": "math_04",
+        "prompt": "20을 4로 나누면",
+        "output": "거으으 가으이아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8888888888888888,
+        "new_tokens": 2
+      },
+      {
+        "id": "explain_01",
+        "prompt": "파이썬은 무엇인가요?",
+        "output": "으으 아이으 아으리으. 으리으 아으 아으르으 가으으 아으이으 아으으으 아으이으 으으으 아으으 아으으으으 아으으 아으 아으으으 아으으으 아아으 아",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9838709677419355,
+        "new_tokens": 19
+      },
+      {
+        "id": "explain_02",
+        "prompt": "인공지능이란 무엇인가요?",
+        "output": "인이이아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.8333333333333334,
+        "new_tokens": 1
+      },
+      {
+        "id": "explain_03",
+        "prompt": "양자역학은",
+        "output": "가아아에 가으스 아아아아요.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9230769230769231,
+        "new_tokens": 3
+      },
+      {
+        "id": "explain_04",
+        "prompt": "고양이는 어떤 동물인가요?",
+        "output": "고이이아이아. 가이으 가이으 아이으 가으스 가으리으이으 가으으으 가으이으 기아으 아으으 가이으으으 아이으 아으 아이아으 아이으 아이아이아 아으.",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.96875,
+        "new_tokens": 17
+      },
+      {
+        "id": "context_01",
+        "prompt": "나는 부산에 살고 있어. 내가 사는 도시는",
+        "output": "수아으. 사으르 서아으 거아으 가으이으 가으 가으이으 가으느아으 아스아으 가으으으 아아으 아으 아아아으 아아",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.9787234042553191,
+        "new_tokens": 14
+      },
+      {
+        "id": "context_02",
+        "prompt": "민수는 빨간 사과를 샀다. 민수가 산 과일은",
+        "output": "사아이이 사아이으 사아스 사아시아요. 가아으 가으이아으 가아아으 가아아아아 가아아아아요. 아아아아 아아아아아",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 0.96,
+        "new_tokens": 11
+      },
+      {
+        "id": "context_03",
+        "prompt": "책상 위에 연필이 있다. 책상 위에 있는 것은",
+        "output": "아여이으 아이아으 아으 아으리으 아으이으 아으이으이으 이아으 아으으 아아으으으 아아으 아으 아아아으 어아으 ",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 1.0,
+        "new_tokens": 13
+      },
+      {
+        "id": "context_04",
+        "prompt": "나는 매일 아침 커피를 마신다. 내가 마시는 것은",
+        "output": "재으리으 자으르 거이으 기으이으 가으 가으이으 가으느아으 아스으 가으 가으으 가으 아으 아으이아으 아으이아으",
+        "keyword_hit_rate": 0.0,
+        "repetition_3gram_ratio": 0.0,
+        "full_hangul_ratio": 1.0,
+        "new_tokens": 14
+      }
+    ]
+  }
+]

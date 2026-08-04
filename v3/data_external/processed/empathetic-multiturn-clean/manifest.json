@@ -1,0 +1,8 @@
+{
+  "source": "data_external/raw/Empathetic_data.jsonl",
+  "clean_unique": 10000,
+  "train": 9000,
+  "valid": 1000,
+  "seed": 42,
+  "split": "conversation_record_hash_after_shuffle"
+}
