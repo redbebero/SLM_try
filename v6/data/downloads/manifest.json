@@ -1,0 +1,24 @@
+[
+  {
+    "name": "openai/gsm8k",
+    "config": "main",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "license": "MIT",
+    "purpose": "English multi-step math translated and verifier-checked into Korean",
+    "split": "train",
+    "source_path": "data/downloads/openai__gsm8k/train.jsonl",
+    "rows": 7473,
+    "reused": false
+  },
+  {
+    "name": "LGCNS/KorQuAD_2.0",
+    "config": "default",
+    "revision": "383f6a3d4efd5f238b4df7181d0af182f0ea8ff",
+    "license": "CC BY-ND 2.0 KR",
+    "purpose": "Korean document, table, and list QA",
+    "split": "train",
+    "source_path": "data/raw/korquad_train.jsonl",
+    "rows": 83486,
+    "reused": true
+  }
+]
