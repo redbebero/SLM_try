@@ -102,6 +102,8 @@ class KoreanLM(nn.Module):
         for _ in range(max_new_tokens):
             logits, _ = self(idx[:, -self.cfg.block_size:])
             logits = logits[:, -1] / max(temperature, 1e-5)
+            if logits.size(-1) > 1:
+                logits[:, 1] = -float("inf")  # <unk> is never a useful chat output.
             if top_k:
                 values, _ = torch.topk(logits, min(top_k, logits.size(-1)))
                 logits[logits < values[:, [-1]]] = -float("inf")
