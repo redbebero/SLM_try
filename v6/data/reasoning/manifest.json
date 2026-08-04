@@ -1,0 +1,9 @@
+{
+  "rows": 10000,
+  "sources": {
+    "deterministic-generator": 8900,
+    "LGCNS/KorQuAD_2.0": 1000,
+    "openai/gsm8k+nllb": 89,
+    "IkJun1/korean-qa-dataset": 11
+  }
+}

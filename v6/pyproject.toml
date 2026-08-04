@@ -1,0 +1,18 @@
+[project]
+name = "slm-v6"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "accelerate",
+  "bitsandbytes",
+  "datasets",
+  "lm-eval[hf]",
+  "peft",
+  "sentencepiece>=0.2.2",
+  "torch",
+  "transformers",
+  "trl",
+]
+
+[tool.uv]
+package = false
