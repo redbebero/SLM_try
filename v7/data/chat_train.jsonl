@@ -1,0 +1,54 @@
+{"id": "chat-0000", "messages": [{"role": "user", "content": "안녕"}, {"role": "assistant", "content": "안녕하세요. 만나서 반가워요."}]}
+{"id": "chat-0001", "messages": [{"role": "user", "content": "안녕"}, {"role": "assistant", "content": "안녕하세요. 오늘 어떤 이야기를 나눌까요?"}]}
+{"id": "chat-0002", "messages": [{"role": "user", "content": "안녕하세요! 오늘은 어때?"}, {"role": "assistant", "content": "안녕하세요. 만나서 반가워요."}]}
+{"id": "chat-0003", "messages": [{"role": "user", "content": "안녕하세요! 오늘은 어때?"}, {"role": "assistant", "content": "안녕하세요. 오늘 어떤 이야기를 나눌까요?"}]}
+{"id": "chat-0004", "messages": [{"role": "user", "content": "반가워."}, {"role": "assistant", "content": "안녕하세요. 만나서 반가워요."}]}
+{"id": "chat-0005", "messages": [{"role": "user", "content": "반가워."}, {"role": "assistant", "content": "안녕하세요. 오늘 어떤 이야기를 나눌까요?"}]}
+{"id": "chat-0006", "messages": [{"role": "user", "content": "오늘 하루가 너무 길게 느껴졌어."}, {"role": "assistant", "content": "오늘 많이 지쳤나 보네요. 잠깐 쉬어도 괜찮아요."}]}
+{"id": "chat-0007", "messages": [{"role": "user", "content": "오늘 하루가 너무 길게 느껴졌어."}, {"role": "assistant", "content": "고생했어요. 지금 가장 부담되는 일부터 하나씩 내려놓아 봐요."}]}
+{"id": "chat-0008", "messages": [{"role": "user", "content": "하루 종일 지쳤어."}, {"role": "assistant", "content": "오늘 많이 지쳤나 보네요. 잠깐 쉬어도 괜찮아요."}]}
+{"id": "chat-0009", "messages": [{"role": "user", "content": "하루 종일 지쳤어."}, {"role": "assistant", "content": "고생했어요. 지금 가장 부담되는 일부터 하나씩 내려놓아 봐요."}]}
+{"id": "chat-0010", "messages": [{"role": "user", "content": "뭘 해야 할지 모르겠어."}, {"role": "assistant", "content": "가장 중요한 일 하나만 골라서 10분만 시작해 보세요."}]}
+{"id": "chat-0011", "messages": [{"role": "user", "content": "뭘 해야 할지 모르겠어."}, {"role": "assistant", "content": "해야 할 일을 작게 나누고 첫 단계만 정해 봅시다."}]}
+{"id": "chat-0012", "messages": [{"role": "user", "content": "할 일이 많은데 손에 안 잡혀."}, {"role": "assistant", "content": "가장 중요한 일 하나만 골라서 10분만 시작해 보세요."}]}
+{"id": "chat-0013", "messages": [{"role": "user", "content": "할 일이 많은데 손에 안 잡혀."}, {"role": "assistant", "content": "해야 할 일을 작게 나누고 첫 단계만 정해 봅시다."}]}
+{"id": "chat-0014", "messages": [{"role": "user", "content": "주말에는 보통 뭘 해?"}, {"role": "assistant", "content": "산책하거나 좋아하는 음악을 들으며 천천히 쉬는 편이 좋아요."}]}
+{"id": "chat-0015", "messages": [{"role": "user", "content": "주말에는 보통 뭘 해?"}, {"role": "assistant", "content": "집에서 영화를 보거나 가까운 곳을 가볍게 걸어도 좋아요."}]}
+{"id": "chat-0016", "messages": [{"role": "user", "content": "쉬는 날에 할 만한 일이 있을까?"}, {"role": "assistant", "content": "산책하거나 좋아하는 음악을 들으며 천천히 쉬는 편이 좋아요."}]}
+{"id": "chat-0017", "messages": [{"role": "user", "content": "쉬는 날에 할 만한 일이 있을까?"}, {"role": "assistant", "content": "집에서 영화를 보거나 가까운 곳을 가볍게 걸어도 좋아요."}]}
+{"id": "chat-0018", "messages": [{"role": "user", "content": "나는 커피를 좋아해."}, {"role": "assistant", "content": "좋네요. 어떤 커피를 가장 좋아해요?"}]}
+{"id": "chat-0019", "messages": [{"role": "user", "content": "나는 커피를 좋아해."}, {"role": "assistant", "content": "음악은 기분을 바꾸는 데 도움이 되죠. 어떤 장르를 들어요?"}]}
+{"id": "chat-0020", "messages": [{"role": "user", "content": "요즘 음악 듣는 게 좋아."}, {"role": "assistant", "content": "좋네요. 어떤 커피를 가장 좋아해요?"}]}
+{"id": "chat-0021", "messages": [{"role": "user", "content": "요즘 음악 듣는 게 좋아."}, {"role": "assistant", "content": "음악은 기분을 바꾸는 데 도움이 되죠. 어떤 장르를 들어요?"}]}
+{"id": "chat-0022", "messages": [{"role": "user", "content": "잘 모르겠어."}, {"role": "assistant", "content": "괜찮아요. 확실하지 않은 부분은 확인한 뒤 이야기할게요."}]}
+{"id": "chat-0023", "messages": [{"role": "user", "content": "잘 모르겠어."}, {"role": "assistant", "content": "맞아요. 지금 정보만으로는 단정하기 어렵다고 말하는 게 좋아요."}]}
+{"id": "chat-0024", "messages": [{"role": "user", "content": "그건 확실하지 않은 것 같아."}, {"role": "assistant", "content": "괜찮아요. 확실하지 않은 부분은 확인한 뒤 이야기할게요."}]}
+{"id": "chat-0025", "messages": [{"role": "user", "content": "그건 확실하지 않은 것 같아."}, {"role": "assistant", "content": "맞아요. 지금 정보만으로는 단정하기 어렵다고 말하는 게 좋아요."}]}
+{"id": "chat-0026", "messages": [{"role": "user", "content": "내 말을 잘 이해했어?"}, {"role": "assistant", "content": "대략 이해했어요. 원하는 부분을 조금 더 알려주면 정확히 답할게요."}]}
+{"id": "chat-0027", "messages": [{"role": "user", "content": "내 말을 잘 이해했어?"}, {"role": "assistant", "content": "조금 더 구체적으로 말해주면 더 잘 도와줄 수 있어요."}]}
+{"id": "chat-0028", "messages": [{"role": "user", "content": "내 질문이 너무 애매했나?"}, {"role": "assistant", "content": "대략 이해했어요. 원하는 부분을 조금 더 알려주면 정확히 답할게요."}]}
+{"id": "chat-0029", "messages": [{"role": "user", "content": "내 질문이 너무 애매했나?"}, {"role": "assistant", "content": "조금 더 구체적으로 말해주면 더 잘 도와줄 수 있어요."}]}
+{"id": "chat-0030", "messages": [{"role": "user", "content": "계획을 세우고 싶어."}, {"role": "assistant", "content": "먼저 꼭 해야 하는 일과 나중에 해도 되는 일을 나눠 봅시다."}]}
+{"id": "chat-0031", "messages": [{"role": "user", "content": "계획을 세우고 싶어."}, {"role": "assistant", "content": "가장 중요한 일 하나를 먼저 배치하고 사이에 쉬는 시간을 넣어 보세요."}]}
+{"id": "chat-0032", "messages": [{"role": "user", "content": "내일 일정을 정리해 줘."}, {"role": "assistant", "content": "먼저 꼭 해야 하는 일과 나중에 해도 되는 일을 나눠 봅시다."}]}
+{"id": "chat-0033", "messages": [{"role": "user", "content": "내일 일정을 정리해 줘."}, {"role": "assistant", "content": "가장 중요한 일 하나를 먼저 배치하고 사이에 쉬는 시간을 넣어 보세요."}]}
+{"id": "chat-0034", "messages": [{"role": "user", "content": "실수해서 속상해."}, {"role": "assistant", "content": "실수는 아쉽지만 그 일에서 배울 점을 찾을 수 있어요. 너무 몰아붙이지 마세요."}]}
+{"id": "chat-0035", "messages": [{"role": "user", "content": "실수해서 속상해."}, {"role": "assistant", "content": "그렇게 느낄 수 있어요. 무엇이 잘못됐는지 차분히 나눠 보면 다음 방법이 보일 거예요."}]}
+{"id": "chat-0036", "messages": [{"role": "user", "content": "내가 잘못한 것 같아서 마음이 무거워."}, {"role": "assistant", "content": "실수는 아쉽지만 그 일에서 배울 점을 찾을 수 있어요. 너무 몰아붙이지 마세요."}]}
+{"id": "chat-0037", "messages": [{"role": "user", "content": "내가 잘못한 것 같아서 마음이 무거워."}, {"role": "assistant", "content": "그렇게 느낄 수 있어요. 무엇이 잘못됐는지 차분히 나눠 보면 다음 방법이 보일 거예요."}]}
+{"id": "chat-0038", "messages": [{"role": "user", "content": "짧게 대답해 줘."}, {"role": "assistant", "content": "알겠어요. 핵심만 간단히 말할게요."}]}
+{"id": "chat-0039", "messages": [{"role": "user", "content": "짧게 대답해 줘."}, {"role": "assistant", "content": "네. 앞으로 짧고 분명하게 답할게요."}]}
+{"id": "chat-0040", "messages": [{"role": "user", "content": "길게 말하지 말고 핵심만 알려줘."}, {"role": "assistant", "content": "알겠어요. 핵심만 간단히 말할게요."}]}
+{"id": "chat-0041", "messages": [{"role": "user", "content": "길게 말하지 말고 핵심만 알려줘."}, {"role": "assistant", "content": "네. 앞으로 짧고 분명하게 답할게요."}]}
+{"id": "chat-0042", "messages": [{"role": "user", "content": "자세히 설명해 줘."}, {"role": "assistant", "content": "좋아요. 먼저 핵심부터 말하고 예를 들어 설명할게요."}]}
+{"id": "chat-0043", "messages": [{"role": "user", "content": "자세히 설명해 줘."}, {"role": "assistant", "content": "어려운 표현을 줄이고 단계별로 설명해 볼게요."}]}
+{"id": "chat-0044", "messages": [{"role": "user", "content": "조금 더 쉽게 풀어서 말해 줘."}, {"role": "assistant", "content": "좋아요. 먼저 핵심부터 말하고 예를 들어 설명할게요."}]}
+{"id": "chat-0045", "messages": [{"role": "user", "content": "조금 더 쉽게 풀어서 말해 줘."}, {"role": "assistant", "content": "어려운 표현을 줄이고 단계별로 설명해 볼게요."}]}
+{"id": "chat-0046", "messages": [{"role": "user", "content": "도와줘서 고마워."}, {"role": "assistant", "content": "도움이 되었다니 다행이에요."}]}
+{"id": "chat-0047", "messages": [{"role": "user", "content": "도와줘서 고마워."}, {"role": "assistant", "content": "별말씀을요. 또 궁금한 점이 있으면 말해 주세요."}]}
+{"id": "chat-0048", "messages": [{"role": "user", "content": "고마워, 도움이 됐어."}, {"role": "assistant", "content": "도움이 되었다니 다행이에요."}]}
+{"id": "chat-0049", "messages": [{"role": "user", "content": "고마워, 도움이 됐어."}, {"role": "assistant", "content": "별말씀을요. 또 궁금한 점이 있으면 말해 주세요."}]}
+{"id": "chat-0050", "messages": [{"role": "user", "content": "오늘 뭐 했어?"}, {"role": "assistant", "content": "나는 여기서 네 이야기를 듣고 질문에 답했어."}, {"role": "user", "content": "그럼 내 이야기도 들어줄래?"}, {"role": "assistant", "content": "물론이지. 천천히 말해 줘. 내가 들어줄게."}]}
+{"id": "chat-0051", "messages": [{"role": "user", "content": "요즘 잠을 잘 못 자."}, {"role": "assistant", "content": "많이 피곤하겠어요. 잠들기 전에는 화면을 조금 줄여 보는 것도 도움이 될 수 있어요."}, {"role": "user", "content": "오늘부터 뭘 해볼까?"}, {"role": "assistant", "content": "오늘은 잠들기 30분 전에 조명을 낮추고 휴대폰을 내려놓는 것부터 해 봐요."}]}
+{"id": "chat-0052", "messages": [{"role": "user", "content": "새로운 일을 시작할까 고민 중이야."}, {"role": "assistant", "content": "고민되는 이유와 기대되는 점을 각각 적어 보면 판단하기 쉬워요."}, {"role": "user", "content": "실패할까 봐 무서워."}, {"role": "assistant", "content": "실패 가능성만 보지 말고 작은 시험부터 해 보세요. 부담을 줄인 채 확인할 수 있어요."}]}
+{"id": "chat-0053", "messages": [{"role": "user", "content": "내가 말한 걸 기억해?"}, {"role": "assistant", "content": "이 대화 안에서 나온 내용은 문맥으로 참고할 수 있어."}, {"role": "user", "content": "그럼 방금 내 기분은 어땠지?"}, {"role": "assistant", "content": "방금 네가 말한 기분을 바탕으로 답할 수 있어. 더 자세히 말해 주면 맞춰서 도울게."}]}
