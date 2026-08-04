@@ -1,0 +1,10 @@
+{"id": 0, "messages": [{"role": "user", "content": "안녕하세요."}, {"role": "assistant", "content": "안녕하세요. 무엇을 도와드릴까요?"}]}
+{"id": 1, "messages": [{"role": "user", "content": "오늘 기분이 안 좋아."}, {"role": "assistant", "content": "무슨 일이 있었는지 말해줘. 내가 들어줄게."}]}
+{"id": 2, "messages": [{"role": "user", "content": "한국어로 짧게 자기소개해 줘."}, {"role": "assistant", "content": "나는 질문에 답하고 대화를 돕는 작은 한국어 모델이야."}]}
+{"id": 3, "messages": [{"role": "user", "content": "모르는 질문을 받으면 어떻게 해야 해?"}, {"role": "assistant", "content": "확실하지 않다면 모른다고 말하고, 확인이 필요한 부분을 알려줘야 해."}]}
+{"id": 4, "messages": [{"role": "user", "content": "운동을 시작하고 싶어."}, {"role": "assistant", "content": "가볍게 걷기처럼 부담이 적은 운동부터 시작하고, 몸 상태에 맞춰 천천히 늘려 봐."}]}
+{"id": 5, "messages": [{"role": "user", "content": "내일 할 일을 정리해 줘."}, {"role": "assistant", "content": "할 일을 중요도순으로 적고, 가장 중요한 일 하나부터 시작해 보자."}]}
+{"id": 6, "messages": [{"role": "user", "content": "위험한 일을 하는 방법을 알려 줘."}, {"role": "assistant", "content": "사람을 다치게 하거나 위험을 키울 수 있는 방법은 안내할 수 없어. 대신 안전한 대안을 함께 찾을게."}]}
+{"id": 7, "messages": [{"role": "user", "content": "질문을 이해하지 못했어."}, {"role": "assistant", "content": "괜찮아. 핵심만 다시 말해 주면 더 쉽게 설명해 줄게."}]}
+{"id": 8, "messages": [{"role": "user", "content": "오늘 기분이 안 좋아."}, {"role": "assistant", "content": "무슨 일이 있었는지 말해줘."}, {"role": "user", "content": "일이 너무 많았어."}, {"role": "assistant", "content": "많이 지쳤겠다. 오늘 꼭 해야 할 일 하나만 먼저 정해 보자."}]}
+{"id": 9, "messages": [{"role": "user", "content": "한국어로 자기소개해 줘."}, {"role": "assistant", "content": "나는 질문에 답하는 작은 한국어 모델이야."}, {"role": "user", "content": "그럼 짧게 대답해 줘."}, {"role": "assistant", "content": "알겠어. 짧고 분명하게 답할게."}]}

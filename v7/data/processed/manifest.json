@@ -1,0 +1,7 @@
+{
+  "records": 2000,
+  "train_records": 1960,
+  "valid_records": 40,
+  "deduplicated": true,
+  "expanded_corpus": "/home/redbebero/Projects/SLM/v7/data/processed/train_expanded.txt"
+}
