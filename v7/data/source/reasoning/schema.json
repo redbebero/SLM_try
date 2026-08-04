@@ -1,0 +1,6 @@
+{
+  "required": ["id", "category", "question", "solution", "answer", "template_id", "verifier"],
+  "categories": ["arithmetic", "multi_step", "comparison", "state_change", "temporal_logic", "reading_inference"],
+  "splits": {"test": 900, "ood": 300},
+  "policy": "Evaluation-only. Never copy these records into training data."
+}
