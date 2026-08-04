@@ -1,0 +1,10 @@
+{
+  "external_train": 5202,
+  "koculture_train": 9318,
+  "external_valid": 898,
+  "koculture_valid": 1035,
+  "train": 14514,
+  "valid": 1933,
+  "question_overlap": 0,
+  "seed": 42
+}

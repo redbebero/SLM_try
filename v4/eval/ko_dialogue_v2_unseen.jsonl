@@ -1,0 +1,15 @@
+{"id":"v2_capital","prompt":"서울이 한국의 수도가 맞습니까?","expected_keywords":["서울"],"max_new_chars":50}
+{"id":"v2_king","prompt":"훈민정음을 만든 군주를 알려 주세요.","expected_keywords":["세종"],"max_new_chars":50}
+{"id":"v2_cat","prompt":"고양이는 포유 동물로 분류되나요?","expected_keywords":["포유"],"max_new_chars":50}
+{"id":"v2_python","prompt":"파이썬은 프로그래밍에 쓰이는 언어인가요?","expected_keywords":["프로그래밍"],"max_new_chars":60}
+{"id":"v2_moon","prompt":"지구의 곁을 도는 자연 위성은 무엇이죠?","expected_keywords":["달"],"max_new_chars":50}
+{"id":"v2_greet","prompt":"처음 인사드립니다. 대화를 시작해도 될까요?","expected_keywords":["도와"],"max_new_chars":60}
+{"id":"v2_welcome","prompt":"뵙게 되어 기쁩니다.","expected_keywords":["반가"],"max_new_chars":60}
+{"id":"v2_help","prompt":"궁금한 점을 질문해도 괜찮을까요?","expected_keywords":["말씀"],"max_new_chars":60}
+{"id":"v2_mistake","prompt":"틀린 일을 바로잡으려면 무엇을 해야 하나요?","expected_keywords":["다시"],"max_new_chars":70}
+{"id":"v2_study","prompt":"학습을 오래 이어 가는 요령이 있을까요?","expected_keywords":["연습"],"max_new_chars":70}
+{"id":"v2_weather","prompt":"오늘 제주 날씨를 알려줘.","expected_keywords":[],"max_new_chars":60}
+{"id":"v2_president","prompt":"지금 한국을 이끄는 대통령은 누구야?","expected_keywords":[],"max_new_chars":60}
+{"id":"v2_mars","prompt":"화성 주변을 도는 위성의 수를 알려줘.","expected_keywords":[],"max_new_chars":60}
+{"id":"v2_quantum","prompt":"양자역학의 핵심을 쉽게 풀어 설명해줘.","expected_keywords":[],"max_new_chars":80}
+{"id":"v2_recipe","prompt":"된장찌개를 만드는 방법을 알려줘.","expected_keywords":[],"max_new_chars":80}

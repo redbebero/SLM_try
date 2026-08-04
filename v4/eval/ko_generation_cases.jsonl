@@ -1,0 +1,20 @@
+{"id":"greeting_01","prompt":"안녕하세요","expected_keywords":["안녕"],"max_new_chars":50}
+{"id":"greeting_02","prompt":"반갑습니다","expected_keywords":["반갑"],"max_new_chars":50}
+{"id":"greeting_03","prompt":"오늘 기분이 어때요?","expected_keywords":["기분"],"max_new_chars":60}
+{"id":"greeting_04","prompt":"도와줄 수 있나요?","expected_keywords":["도움"],"max_new_chars":60}
+{"id":"common_01","prompt":"대한민국의 수도는","expected_keywords":["서울"],"max_new_chars":50}
+{"id":"common_02","prompt":"물의 화학식은","expected_keywords":["H2O"],"max_new_chars":50}
+{"id":"common_03","prompt":"지구가 태양을 한 바퀴 도는 데 걸리는 시간은","expected_keywords":["년"],"max_new_chars":60}
+{"id":"common_04","prompt":"한글을 만든 왕은","expected_keywords":["세종"],"max_new_chars":50}
+{"id":"math_01","prompt":"1 더하기 1은","expected_keywords":["2"],"max_new_chars":40}
+{"id":"math_02","prompt":"3 곱하기 4는","expected_keywords":["12"],"max_new_chars":40}
+{"id":"math_03","prompt":"10에서 3을 빼면","expected_keywords":["7"],"max_new_chars":40}
+{"id":"math_04","prompt":"20을 4로 나누면","expected_keywords":["5"],"max_new_chars":40}
+{"id":"explain_01","prompt":"파이썬은 무엇인가요?","expected_keywords":["프로그래밍"],"max_new_chars":80}
+{"id":"explain_02","prompt":"인공지능이란 무엇인가요?","expected_keywords":["인공지능"],"max_new_chars":80}
+{"id":"explain_03","prompt":"양자역학은","expected_keywords":["물리"],"max_new_chars":80}
+{"id":"explain_04","prompt":"고양이는 어떤 동물인가요?","expected_keywords":["동물"],"max_new_chars":80}
+{"id":"context_01","prompt":"나는 부산에 살고 있어. 내가 사는 도시는","expected_keywords":["부산"],"max_new_chars":60}
+{"id":"context_02","prompt":"민수는 빨간 사과를 샀다. 민수가 산 과일은","expected_keywords":["사과"],"max_new_chars":60}
+{"id":"context_03","prompt":"책상 위에 연필이 있다. 책상 위에 있는 것은","expected_keywords":["연필"],"max_new_chars":60}
+{"id":"context_04","prompt":"나는 매일 아침 커피를 마신다. 내가 마시는 것은","expected_keywords":["커피"],"max_new_chars":60}

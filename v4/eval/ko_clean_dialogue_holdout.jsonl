@@ -1,0 +1,20 @@
+{"id":"clean_greet_01","prompt":"안녕하세요, 오늘 대화할 수 있나요?","expected_keywords":["도와"],"max_new_chars":50}
+{"id":"clean_greet_02","prompt":"오랜만이에요. 잘 지냈나요?","expected_keywords":["잘 지냈"],"max_new_chars":50}
+{"id":"clean_fact_01","prompt":"대한민국 수도를 말해줘.","expected_keywords":["서울"],"max_new_chars":40}
+{"id":"clean_fact_02","prompt":"한글을 창제한 임금은 누구인가요?","expected_keywords":["세종"],"max_new_chars":50}
+{"id":"clean_fact_03","prompt":"고양이는 포유류인가요?","expected_keywords":["포유류"],"max_new_chars":50}
+{"id":"clean_fact_04","prompt":"파이썬은 무엇에 쓰는 언어인가요?","expected_keywords":["프로그래밍"],"max_new_chars":60}
+{"id":"clean_math_01","prompt":"14와 9를 더하면 얼마인가요?","expected_keywords":["23"],"max_new_chars":30}
+{"id":"clean_math_02","prompt":"18에서 7을 빼면 얼마인가요?","expected_keywords":["11"],"max_new_chars":30}
+{"id":"clean_math_03","prompt":"6 곱하기 8의 답은?","expected_keywords":["48"],"max_new_chars":30}
+{"id":"clean_context_01","prompt":"서연은 제주에 산다. 서연이 사는 도시는","expected_keywords":["제주"],"max_new_chars":40}
+{"id":"clean_context_02","prompt":"현우는 바나나를 샀다. 현우가 산 과일은","expected_keywords":["바나나"],"max_new_chars":40}
+{"id":"clean_context_03","prompt":"지영은 부산에 살고 있다. 지영의 거주지는","expected_keywords":["부산"],"max_new_chars":40}
+{"id":"clean_advice_01","prompt":"모르는 것이 있으면 어떻게 해야 하나요?","expected_keywords":["물어"],"max_new_chars":70}
+{"id":"clean_advice_02","prompt":"공부를 꾸준히 하려면 어떻게 할까요?","expected_keywords":["목표"],"max_new_chars":80}
+{"id":"clean_advice_03","prompt":"실수했을 때 가장 좋은 방법은 무엇인가요?","expected_keywords":["다시"],"max_new_chars":70}
+{"id":"clean_greet_03","prompt":"처음 만났어요. 반가워요.","expected_keywords":["반가"],"max_new_chars":50}
+{"id":"clean_fact_05","prompt":"지구 주위를 도는 위성은 무엇인가요?","expected_keywords":["달"],"max_new_chars":40}
+{"id":"clean_math_04","prompt":"21에 13을 더한 값은?","expected_keywords":["34"],"max_new_chars":30}
+{"id":"clean_context_04","prompt":"민수는 김밥을 샀다. 민수가 산 음식은","expected_keywords":["김밥"],"max_new_chars":40}
+{"id":"clean_advice_04","prompt":"오늘 할 일을 정리하고 싶어요.","expected_keywords":["정리"],"max_new_chars":80}

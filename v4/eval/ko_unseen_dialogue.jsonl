@@ -1,0 +1,15 @@
+{"id":"unseen_capital","prompt":"한국의 수도가 어디야?","expected_keywords":["서울"],"max_new_chars":40,"should_memory":true}
+{"id":"unseen_king","prompt":"한글을 만든 왕을 알려줘.","expected_keywords":["세종"],"max_new_chars":50,"should_memory":true}
+{"id":"unseen_cat","prompt":"고양이는 어떤 동물인지 알려주세요.","expected_keywords":["포유류"],"max_new_chars":50,"should_memory":true}
+{"id":"unseen_python","prompt":"파이썬은 어떤 종류의 언어인가요?","expected_keywords":["프로그래밍"],"max_new_chars":60,"should_memory":true}
+{"id":"unseen_moon","prompt":"지구의 자연 위성 이름은 무엇인가요?","expected_keywords":["달"],"max_new_chars":40,"should_memory":true}
+{"id":"unseen_greet","prompt":"안녕, 오늘도 이야기할 수 있을까?","expected_keywords":["도와"],"max_new_chars":50,"should_memory":false}
+{"id":"unseen_welcome","prompt":"만나서 반갑습니다.","expected_keywords":["반가"],"max_new_chars":50,"should_memory":false}
+{"id":"unseen_help","prompt":"제가 궁금한 것을 물어봐도 될까요?","expected_keywords":["말씀"],"max_new_chars":60,"should_memory":false}
+{"id":"unseen_mistake","prompt":"잘못했을 때는 어떻게 고치면 좋을까요?","expected_keywords":["다시"],"max_new_chars":70,"should_memory":false}
+{"id":"unseen_study","prompt":"매일 공부하는 습관을 만들고 싶습니다.","expected_keywords":["목표"],"max_new_chars":70,"should_memory":false}
+{"id":"unseen_weather","prompt":"지금 부산 날씨를 알려줘.","expected_keywords":[],"max_new_chars":60,"should_memory":false}
+{"id":"unseen_president","prompt":"현재 한국 대통령이 누구야?","expected_keywords":[],"max_new_chars":60,"should_memory":false}
+{"id":"unseen_mars","prompt":"화성에는 위성이 몇 개 있나요?","expected_keywords":[],"max_new_chars":60,"should_memory":false}
+{"id":"unseen_quantum","prompt":"양자역학을 어린이에게 설명해줘.","expected_keywords":[],"max_new_chars":80,"should_memory":false}
+{"id":"unseen_recipe","prompt":"김치찌개 요리법을 알려줘.","expected_keywords":[],"max_new_chars":80,"should_memory":false}
