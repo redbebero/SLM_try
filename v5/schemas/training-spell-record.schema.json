@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://slm-v5.local/schemas/training-spell-record.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "split_group", "input", "target", "provenance"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "split_group": { "type": "string", "minLength": 1 },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["incantation", "language"],
+      "properties": {
+        "incantation": { "type": "string", "minLength": 1 },
+        "language": { "type": "string", "const": "ko" }
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version", "status", "element", "form", "target",
+        "power", "speed", "range", "duration", "confidence"
+      ],
+      "properties": {
+        "schema_version": { "type": "integer", "const": 1 },
+        "status": { "type": "string", "enum": ["PROPOSAL", "UNKNOWN"] },
+        "element": {
+          "type": "string",
+          "enum": ["FIRE", "WATER", "AIR", "EARTH", "ICE", "LIGHT", "SHADOW", "UNKNOWN"]
+        },
+        "form": {
+          "type": "string",
+          "enum": ["ORB", "SPEAR", "SHIELD", "BEAM", "UNKNOWN"]
+        },
+        "target": {
+          "type": "string",
+          "enum": ["SELF", "ENEMY", "AREA", "UNKNOWN"]
+        },
+        "power": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "speed": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "range": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "duration": { "type": "integer", "minimum": 0, "maximum": 5 },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "source_id", "verified"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["HUMAN_AUTHORED", "PUBLIC_DOMAIN_ADAPTATION", "SYNTHETIC", "HARD_NEGATIVE"]
+        },
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_url": { "type": "string", "pattern": "^https?://[^\\s]+$" },
+        "verified": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "PUBLIC_DOMAIN_ADAPTATION" } } },
+          "then": {
+            "required": ["source_url"],
+            "properties": { "source_url": { "type": "string", "pattern": "^https?://[^\\s]+$" } }
+          }
+        }
+      ]
+    }
+  }
+}

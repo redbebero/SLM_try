@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://slm-v5.local/schemas/word-classification.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "token", "attributes", "unknown"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "token": { "type": "string", "minLength": 1 },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "value", "delta", "confidence"],
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["ELEMENT", "FORM", "TARGET", "INTENT", "MODIFIER", "SIZE", "DIRECTION", "QUANTITY", "CAST"]
+          },
+          "value": {
+            "type": "string",
+            "enum": [
+              "FIRE", "WATER", "AIR", "EARTH", "ICE", "LIGHT", "SHADOW", "LIFE", "POISON", "THUNDER", "VOID",
+              "ORB", "SPEAR", "SHIELD", "BEAM", "WALL", "WAVE", "ARROW", "CHAIN", "ZONE", "TRAP",
+              "SELF", "ALLY", "ENEMY", "AREA", "GROUND", "OBJECT", "TOUCH", "PROJECTILE",
+              "DAMAGE", "DEFEND", "CONTROL", "MOVE", "TRANSFORM", "RESTORE", "SENSE", "SUMMON", "DISPEL", "CREATE", "DESTROY", "TELEPORT", "ABSORB", "ENCHANT",
+              "POWER_UP", "SPEED_UP", "RANGE_UP", "DURATION_UP", "PRECISION_UP", "AREA_UP", "PIERCE", "SEEK", "REPEAT", "REFLECT", "BURN", "FREEZE", "STUN", "SILENCE",
+              "TINY", "SMALL", "MEDIUM", "LARGE", "HUGE", "ALL",
+              "FORWARD", "BACKWARD", "UP", "DOWN", "LEFT", "RIGHT", "INWARD", "OUTWARD", "AROUND",
+              "ONE", "FEW", "MANY",
+              "CHARGE", "FOCUS", "RELEASE", "STOP", "CONTINUE", "NOW"
+            ]
+          },
+          "delta": { "type": "integer", "minimum": -2, "maximum": 2 },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      }
+    },
+    "unknown": { "type": "boolean" }
+  }
+}

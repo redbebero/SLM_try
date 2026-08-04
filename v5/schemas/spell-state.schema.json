@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://slm-v5.local/schemas/spell-state.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "phase", "element", "form", "intent", "power",
+    "speed", "range", "duration", "stability", "mana_cost", "tokens"
+  ],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "phase": { "type": "string", "enum": ["ELEMENT", "FORM", "MODIFIER", "CAST", "READY_TO_CAST"] },
+    "element": { "type": ["string", "null"], "enum": ["FIRE", "WATER", "AIR", "ICE", "SHADOW", null] },
+    "form": { "type": ["string", "null"], "enum": ["ORB", "SPEAR", "SHIELD", null] },
+    "intent": { "type": ["string", "null"], "enum": ["DAMAGE", "DEFEND", "CONTROL", "MOVE", "TRANSFORM", "RESTORE", null] },
+    "power": { "type": "integer", "minimum": 0, "maximum": 5 },
+    "speed": { "type": "integer", "minimum": 0, "maximum": 5 },
+    "range": { "type": "integer", "minimum": 0, "maximum": 5 },
+    "duration": { "type": "integer", "minimum": 0, "maximum": 5 },
+    "stability": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "mana_cost": { "type": "integer", "minimum": 0 },
+    "tokens": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://slm-v5.local/schemas/training-token-attribute.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "split_group", "input", "target", "provenance"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "split_group": { "type": "string", "minLength": 1 },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["token", "language"],
+      "properties": {
+        "token": { "type": "string", "minLength": 1 },
+        "language": { "type": "string", "const": "ko" }
+      }
+    },
+    "target": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "value", "delta"],
+        "properties": {
+          "kind": { "type": "string", "enum": ["ELEMENT", "FORM", "TARGET", "INTENT", "MODIFIER", "SIZE", "DIRECTION", "QUANTITY", "CAST"] },
+          "value": {
+            "type": "string",
+            "enum": [
+              "FIRE", "WATER", "AIR", "EARTH", "ICE", "LIGHT", "SHADOW", "LIFE", "POISON", "THUNDER", "VOID",
+              "ORB", "SPEAR", "SHIELD", "BEAM", "WALL", "WAVE", "ARROW", "CHAIN", "ZONE", "TRAP",
+              "SELF", "ALLY", "ENEMY", "AREA", "GROUND", "OBJECT", "TOUCH", "PROJECTILE",
+              "DAMAGE", "DEFEND", "CONTROL", "MOVE", "TRANSFORM", "RESTORE", "SENSE", "SUMMON", "DISPEL", "CREATE", "DESTROY", "TELEPORT", "ABSORB", "ENCHANT",
+              "POWER_UP", "SPEED_UP", "RANGE_UP", "DURATION_UP", "PRECISION_UP", "AREA_UP", "PIERCE", "SEEK", "REPEAT", "REFLECT", "BURN", "FREEZE", "STUN", "SILENCE",
+              "TINY", "SMALL", "MEDIUM", "LARGE", "HUGE", "ALL",
+              "FORWARD", "BACKWARD", "UP", "DOWN", "LEFT", "RIGHT", "INWARD", "OUTWARD", "AROUND",
+              "ONE", "FEW", "MANY",
+              "CHARGE", "FOCUS", "RELEASE", "STOP", "CONTINUE", "NOW"
+            ]
+          },
+          "delta": { "type": "integer", "minimum": -2, "maximum": 2 }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "source_id", "verified"],
+      "properties": {
+        "type": { "type": "string", "enum": ["HUMAN_AUTHORED", "PUBLIC_DOMAIN_ADAPTATION", "SYNTHETIC", "HARD_NEGATIVE"] },
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_url": { "type": "string", "minLength": 1 },
+        "verified": { "type": "boolean" }
+      },
+      "allOf": [{
+        "if": { "properties": { "type": { "const": "PUBLIC_DOMAIN_ADAPTATION" } }, "required": ["type"] },
+        "then": { "required": ["source_url"] }
+      }]
+    }
+  }
+}
