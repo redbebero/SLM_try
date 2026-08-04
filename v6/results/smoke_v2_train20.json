@@ -1,0 +1,230 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B-Base",
+  "adapter": "models/qwen_0.8b_smoke_v2",
+  "data": "/tmp/slm_v6_owned20.jsonl",
+  "count": 20,
+  "exact_accuracy": 1.0,
+  "format_validity": 1.0,
+  "predictions": [
+    {
+      "id": "owned-arithmetic-arithmetic-0-0",
+      "category": "arithmetic",
+      "question": "민서는 한 상자에 3개씩 들어 있는 상자 2개를 가지고 있습니다. 모두 몇 개인가요?",
+      "solution": "상자 수와 개수를 곱합니다: 3 × 2 = 6.",
+      "answer": "6",
+      "template_id": "arithmetic-0",
+      "prediction": "상자 수와 개수를 곱합니다: 3 × 2 = 6.\n\n정답: 6.\n</think>\n\n3 × 2 = 6\n\n정답: 6.",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-arithmetic-arithmetic-1-0",
+      "category": "arithmetic",
+      "question": "민서는 한 상자에 4개씩 들어 있는 상자 2개를 가지고 있습니다. 모두 몇 개인가요?",
+      "solution": "상자 수와 개수를 곱합니다: 4 × 2 = 8.",
+      "answer": "8",
+      "template_id": "arithmetic-1",
+      "prediction": "상자 수와 개수를 곱합니다: 4 × 2 = 8.\n\n정답: 8.\n</think>\n\n4 × 2 = 8\n\n정답: 8.",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-arithmetic-arithmetic-2-0",
+      "category": "arithmetic",
+      "question": "민서는 한 상자에 5개씩 들어 있는 상자 2개를 가지고 있습니다. 모두 몇 개인가요?",
+      "solution": "상자 수와 개수를 곱합니다: 5 × 2 = 10.",
+      "answer": "10",
+      "template_id": "arithmetic-2",
+      "prediction": "상자 수와 개수를 곱합니다: 5 × 2 = 10.\n\n정답: 10.\n</think>\n\n 상자 수와 개수를 곱합니다: 5 × 2 = 10.\n\n정답: 10.",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-arithmetic-arithmetic-3-0",
+      "category": "arithmetic",
+      "question": "민서는 한 상자에 6개씩 들어 있는 상자 2개를 가지고 있습니다. 모두 몇 개인가요?",
+      "solution": "상자 수와 개수를 곱합니다: 6 × 2 = 12.",
+      "answer": "12",
+      "template_id": "arithmetic-3",
+      "prediction": "상자 수와 개수를 곱합니다: 6 × 2 = 12.\n\n정답: 12.\n</think>\n\n6 × 2 = 12\n\n정답: 12.",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-arithmetic-arithmetic-4-0",
+      "category": "arithmetic",
+      "question": "민서는 한 상자에 7개씩 들어 있는 상자 2개를 가지고 있습니다. 모두 몇 개인가요?",
+      "solution": "상자 수와 개수를 곱합니다: 7 × 2 = 14.",
+      "answer": "14",
+      "template_id": "arithmetic-4",
+      "prediction": "상자 수와 개수를 곱합니다: 7 × 2 = 14.\n\n정답: 14.\n</think>\n\n7 × 2 = 14\n\n정답: 14.",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-arithmetic-arithmetic-5-0",
+      "category": "arithmetic",
+      "question": "민서는 한 상자에 8개씩 들어 있는 상자 2개를 가지고 있습니다. 모두 몇 개인가요?",
+      "solution": "상자 수와 개수를 곱합니다: 8 × 2 = 16.",
+      "answer": "16",
+      "template_id": "arithmetic-5",
+      "prediction": "상자 수와 개수를 곱합니다: 8 × 2 = 16.\n\n정답: 16.\n</think>\n\n 상자 수와 개수를 곱합니다: 8 × 2 = 16.\n\n정답: 16.",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-multi_step-multi_step-0-0",
+      "category": "multi_step",
+      "question": "민서가 연필 3자루를 가지고 있었습니다. 4자루를 받고 2자루를 썼다면 몇 자루가 남나요?",
+      "solution": "3 + 4 - 2 = 5입니다.",
+      "answer": "5",
+      "template_id": "multi_step-0",
+      "prediction": "3 + 4 - 2 = 5\n\n정답: 5\n</think>\n\n3 + 4 - 2 = 5\n\n정답: 5",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-multi_step-multi_step-1-0",
+      "category": "multi_step",
+      "question": "민서가 연필 4자루를 가지고 있었습니다. 4자루를 받고 2자루를 썼다면 몇 자루가 남나요?",
+      "solution": "4 + 4 - 2 = 6입니다.",
+      "answer": "6",
+      "template_id": "multi_step-1",
+      "prediction": "4 + 4 - 2 = 6\n\n정답: 6\n\nA: 4 + 4 = 8, 8 - 2 = 6.\n</think>\n\n4 + 4 - 2 = 6\n\n정답: 6",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-multi_step-multi_step-2-0",
+      "category": "multi_step",
+      "question": "민서가 연필 5자루를 가지고 있었습니다. 4자루를 받고 2자루를 썼다면 몇 자루가 남나요?",
+      "solution": "5 + 4 - 2 = 7입니다.",
+      "answer": "7",
+      "template_id": "multi_step-2",
+      "prediction": "5 + 4 - 2 = 7\n\n정답: 7\n</think>\n\n5 + 4 - 2 = 7\n\n정답: 7",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-multi_step-multi_step-3-0",
+      "category": "multi_step",
+      "question": "민서가 연필 6자루를 가지고 있었습니다. 4자루를 받고 2자루를 썼다면 몇 자루가 남나요?",
+      "solution": "6 + 4 - 2 = 8입니다.",
+      "answer": "8",
+      "template_id": "multi_step-3",
+      "prediction": "6 + 4 - 2 = 8\n\n정답: 8\n\nA: 6 + 4 = 10, 10 - 2 = 8.\n</think>\n\n6 + 4 - 2 = 8\n\n정답: 8",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-multi_step-multi_step-4-0",
+      "category": "multi_step",
+      "question": "민서가 연필 7자루를 가지고 있었습니다. 4자루를 받고 2자루를 썼다면 몇 자루가 남나요?",
+      "solution": "7 + 4 - 2 = 9입니다.",
+      "answer": "9",
+      "template_id": "multi_step-4",
+      "prediction": "7 + 4 - 2 = 9\n\n정답: 9\n\nA: 7 + 4 = 11, 11 - 2 = 9.\n</think>\n\n7 + 4 - 2 = 9\n\n정답: 9",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-multi_step-multi_step-5-0",
+      "category": "multi_step",
+      "question": "민서가 연필 8자루를 가지고 있었습니다. 4자루를 받고 2자루를 썼다면 몇 자루가 남나요?",
+      "solution": "8 + 4 - 2 = 10입니다.",
+      "answer": "10",
+      "template_id": "multi_step-5",
+      "prediction": "8 + 4 - 2 = 10.\n\n정답: 10.\n</think>\n\n8 + 4 - 2 = 10.\n\n정답: 10.\n</think>\n\n8 + 4 - 2 = 10.\n\n정답: 1",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-comparison-comparison-0-0",
+      "category": "comparison",
+      "question": "A 상자에는 물건이 10개, B 상자에는 5개 있습니다. A 상자가 몇 개 더 많나요?",
+      "solution": "차이를 계산합니다: 10 - 5 = 5.",
+      "answer": "5",
+      "template_id": "comparison-0",
+      "prediction": "A 상자가 5개 더 많나요.\n\nA 상자가 10 - 5 = 5개 더 많나요.\n정답: 5\n\nA 상자: 10\nB 상자: 5\nA - B = 5\n\nA 상자가 5개 더 많나요",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-comparison-comparison-1-0",
+      "category": "comparison",
+      "question": "A 상자에는 물건이 11개, B 상자에는 6개 있습니다. A 상자가 몇 개 더 많나요?",
+      "solution": "차이를 계산합니다: 11 - 6 = 5.",
+      "answer": "5",
+      "template_id": "comparison-1",
+      "prediction": "차이를 계산합니다: 11 - 6 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 11 - 6 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 11 - 6 = 5",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-comparison-comparison-2-0",
+      "category": "comparison",
+      "question": "A 상자에는 물건이 12개, B 상자에는 7개 있습니다. A 상자가 몇 개 더 많나요?",
+      "solution": "차이를 계산합니다: 12 - 7 = 5.",
+      "answer": "5",
+      "template_id": "comparison-2",
+      "prediction": "차이를 계산합니다: 12 - 7 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 12 - 7 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 12 - 7 = 5",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-comparison-comparison-3-0",
+      "category": "comparison",
+      "question": "A 상자에는 물건이 13개, B 상자에는 8개 있습니다. A 상자가 몇 개 더 많나요?",
+      "solution": "차이를 계산합니다: 13 - 8 = 5.",
+      "answer": "5",
+      "template_id": "comparison-3",
+      "prediction": "차이를 계산합니다: 13 - 8 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 13 - 8 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 13 - 8 = 5",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-comparison-comparison-4-0",
+      "category": "comparison",
+      "question": "A 상자에는 물건이 14개, B 상자에는 9개 있습니다. A 상자가 몇 개 더 많나요?",
+      "solution": "차이를 계산합니다: 14 - 9 = 5.",
+      "answer": "5",
+      "template_id": "comparison-4",
+      "prediction": "차이를 계산합니다: 14 - 9 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 14 - 9 = 5.\n\n정답: 5.\n</think>\n\n차이를 계산합니다: 14 - 9 = 5",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-comparison-comparison-5-0",
+      "category": "comparison",
+      "question": "A 상자에는 물건이 15개, B 상자에는 10개 있습니다. A 상자가 몇 개 더 많나요?",
+      "solution": "차이를 계산합니다: 15 - 10 = 5.",
+      "answer": "5",
+      "template_id": "comparison-5",
+      "prediction": "A 상자가 5개 더 많나요.\n\nA 상자가 15 - 10 = 5개 더 많나요.\n정답: 5\n\nA 상자: 15\nB 상자: 10\nA - B = 5\n\nA 상자가 5개 더",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-document_qa-document_qa-0-0",
+      "category": "document_qa",
+      "question": "다음 문서를 읽으세요. ‘해솔 도서관은 2013년에 문을 열었고 매주 월요일에 쉽니다.’ 도서관은 언제 문을 열었나요?",
+      "solution": "문서에서 개관 연도 2013년을 찾습니다.",
+      "answer": "2013",
+      "template_id": "document_qa-0",
+      "prediction": "문서를 읽으세요. ‘해솔 도서관은 2013년에 문을 열었고 매주 월요일에 쉽니다.’ 도서관은 2013년에 문을 열었나요?\n\n정답: 2013년.\n\n해솔 도서관은 2013년에 문을 열",
+      "exact": true,
+      "valid": true
+    },
+    {
+      "id": "owned-document_qa-document_qa-1-0",
+      "category": "document_qa",
+      "question": "다음 문서를 읽으세요. ‘해솔 도서관은 2014년에 문을 열었고 매주 월요일에 쉽니다.’ 도서관은 언제 문을 열었나요?",
+      "solution": "문서에서 개관 연도 2014년을 찾습니다.",
+      "answer": "2014",
+      "template_id": "document_qa-1",
+      "prediction": "문서를 읽으세요. ‘해솔 도서관은 2014년에 문을 열었고 매주 월요일에 쉽니다.’ 도서관은 2014년에 문을 열었나요?\n\n정답: 2014년.\n\n해솔 도서관은 2014년에 문을 열",
+      "exact": true,
+      "valid": true
+    }
+  ]
+}
