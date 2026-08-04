@@ -1,0 +1,21 @@
+{
+  "sources": {
+    "empathetic": 6000,
+    "chatbot": 3000
+  },
+  "train": 8000,
+  "valid": 900,
+  "seed": 42,
+  "filters": {
+    "question_chars": [
+      2,
+      220
+    ],
+    "answer_chars": [
+      2,
+      320
+    ],
+    "url": "reject",
+    "repeated_chars": 7
+  }
+}

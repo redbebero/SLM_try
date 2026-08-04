@@ -1,0 +1,12 @@
+{
+  "sources": [
+    "data_external/processed/empathetic-multiturn-clean/train.jsonl",
+    "data_external/processed/empathetic-multiturn-clean/valid.jsonl",
+    "data_external/processed/multiturn_roleplay_clean/train.jsonl",
+    "data_external/processed/multiturn_roleplay_clean/valid.jsonl"
+  ],
+  "train": 14921,
+  "valid": 1999,
+  "seed": 42,
+  "question_overlap": 0
+}

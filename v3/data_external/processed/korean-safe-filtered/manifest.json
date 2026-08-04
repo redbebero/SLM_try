@@ -1,0 +1,12 @@
+{
+  "source": "data_external/raw/korean-safe-conversation/train.jsonl",
+  "raw_records": 26979,
+  "clean_unique_records": 19992,
+  "train_records": 18989,
+  "valid_records": 1003,
+  "filters": {
+    "max_question": 300,
+    "max_answer": 400,
+    "ai_disclaimer": true
+  }
+}

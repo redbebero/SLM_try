@@ -1,0 +1,10 @@
+{
+  "conversations": 3649,
+  "train_conversations": 3284,
+  "valid_conversations": 365,
+  "train_records": 14028,
+  "valid_records": 1521,
+  "general_limit": 5000,
+  "license": "Apache-2.0",
+  "seed": 42
+}

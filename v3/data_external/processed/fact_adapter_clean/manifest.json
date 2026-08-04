@@ -1,0 +1,7 @@
+{
+  "source": "train_data_sft_high_quality/korquad_sft.txt",
+  "train": 4219,
+  "valid": 469,
+  "question_overlap": 0,
+  "seed": 42
+}
